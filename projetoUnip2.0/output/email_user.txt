@@ -1,0 +1,4 @@
+faker@gmail.com
+felipe@gamer
+leo@gmail.com
+fabio@gmail.com
