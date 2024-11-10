@@ -91,9 +91,9 @@ int frutas()
 
     // Cálculo do valor total
     printf("\nNota Fiscal:\n");
-    printf("-----------------------------------------------------------------\n");
-    printf("Produto       | Quantidade | Preco Unitario |   Total | Desconto |\n");
-    printf("-----------------------------------------------------------------\n");
+    printf("-------------------------------------------------------\n");
+    printf("Produto       | Quantidade | Preco Unitario |   Total |\n");
+    printf("-------------------------------------------------------\n");
 
     //Pega todos os dados para colocar na nota fiscal
     for (int i = 0; i < 20; i++) 
@@ -101,7 +101,7 @@ int frutas()
         if (quantidade_frutas[i] > 0) 
         {
             float total_fruta = quantidade_frutas[i] * frutas[i].preco;
-            printf("%-15s | %10d | R$ %-12.2f | R$ %.2f | R$ %.2f\n", frutas[i].nome, quantidade_frutas[i], frutas[i].preco, total_fruta, valor_total);
+            printf("%-15s | %10d | R$ %-12.2f | R$ %.2f |\n", frutas[i].nome, quantidade_frutas[i], frutas[i].preco, total_fruta);
             valor_total += total_fruta; // Adiciona ao valor total
         }
     }

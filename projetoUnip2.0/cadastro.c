@@ -52,7 +52,7 @@ void cadastro() //cadastrar novo usuario.
     password_user = fopen("c:/cproject/projetoUnip2.0/output/password_user.txt", "a"); //password_user.txt
     printf("Digite sua senha:");
     fgets(user.senha,60,stdin);
-    user.senha[strcspn(user.cep, "\n")] = 0;
+    user.senha[strcspn(user.senha, "\n")] = 0;
     fprintf(password_user, "%s\n",user.senha);
     fclose(password_user);
 }
