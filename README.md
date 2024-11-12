@@ -1,10 +1,10 @@
 # FastFrut_App
 
-Projeto de um hortifruti online básico para clientes interessados em fazer compras rápidas pelo celular ou computador, o programa oferece ao cliente as opções de fazer cadastro e login antes de escolher os produtos oferecidos, com as frutas selecionadas o programa oferece cupons de descontos caso o cliente queira utilizar.
+Projeto de um hortifruti online básico para clientes interessados em fazer compras rápidas pelo celular ou computador. O programa oferece ao cliente as opções de fazer cadastro e login antes de escolher os produtos disponíveis. Com as frutas selecionadas, o programa oferece cupons de desconto, caso o cliente deseje utilizá-los.
 
 # Bibliotecas
 
-A criação das bibliotecas foi essencial para manter um código mais limpo e organizado trazendo também a funcionalidade das funções criadas em cada etapa do projeto.
+A criação das bibliotecas foi essencial para manter o código mais limpo e organizado, além de trazer funcionalidades para as funções criadas em cada etapa do projeto.
 
 # Funções
 
@@ -15,7 +15,7 @@ A criação das bibliotecas foi essencial para manter um código mais limpo e or
 
 # Linguagem de Programação
 
-C.
+Desenvolvido na Linguagem C.
 
 # Ferramentas
 
