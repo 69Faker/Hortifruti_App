@@ -20,7 +20,7 @@ Desenvolvido na Linguagem C.
 # Ferramentas
 
 - Visual Studio Code (realizar a codificação do projeto);
-- Discord (Realizar reuniões para discutir sobre o projeto);
+- Discord (Realizar reuniões para discutir sobre o projeto).
 
 # Autores
 
